@@ -11,7 +11,7 @@
 
 ## General info
 
-A Java console application simulating an outdoor equipment rental service. The system supports managing different types of equipment (bikes, tents, backpacks), handling various customer categories with individual discount levels, and processing rentals with availability checking, early returns, and report generation.
+Application simulating an outdoor equipment rental service. The system supports managing different types of equipment (bikes, tents, backpacks), handling various customer categories with individual discount levels, and processing rentals with availability checking, early returns, and report generation.
 
 Built as a learning project to practice core Java concepts.
 
