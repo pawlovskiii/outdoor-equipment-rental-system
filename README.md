@@ -1,5 +1,16 @@
 # Outdoor Equipment Rental System
 
+## Table of contents
+
+- [General info](#general-info)
+- [Features](#features)
+- [Project Structure](#project-structure)
+- [Setup](#setup)
+  - [Run the project](#run-the-project)
+- [Example Output](#example-output)
+
+## General info
+
 A Java console application simulating an outdoor equipment rental service. The system supports managing different types of equipment (bikes, tents, backpacks), handling various customer categories with individual discount levels, and processing rentals with availability checking, early returns, and report generation.
 
 Built as a learning project to practice core Java concepts.
@@ -37,10 +48,26 @@ rentalsystem/
     └── RentalType.java              — enum: RENTED / RESERVED
 ```
 
-## Run the project
+## Setup
+
+To clone and run this application, you'll need [Git](https://git-scm.com) and [JDK 17+](https://www.oracle.com/java/technologies/downloads/) installed on your computer.
 
 ```bash
-java rentalsystem.Main
+# Clone this repository
+$ git clone https://github.com/pawlovskiii/outdoor-equipment-rental-system
+
+# Go into the repository
+$ cd outdoor-equipment-rental-system
+```
+
+### Run the project
+
+```bash
+# Compile all source files
+$ javac rentalsystem/**/*.java rentalsystem/Main.java
+
+# Run the application
+$ java rentalsystem.Main
 ```
 
 ## Example Output
@@ -55,7 +82,6 @@ Equipment: 'The North Face' was rented/reserved:
 Equipment: 'The North Face' was reserved from 2026-02-01 to 2026-02-20 by British High School cost 665.0
 Equipment: 'The North Face' was rented from 2026-03-01 to 2026-03-11 by PWC cost 400.0
 
-
 Equipment: 'Coleman Kobuk' was rented/reserved: 
 2x by Tom
 1x by British High School
@@ -64,7 +90,6 @@ Equipment: 'Coleman Kobuk' was rented from 2026-01-01 to 2026-01-11 by PWC cost 
 Equipment: 'Coleman Kobuk' was reserved from 2026-02-01 to 2026-02-20 by Tom cost 1710.0
 Equipment: 'Coleman Kobuk' was rented from 2026-03-01 to 2026-03-11 by Tom cost 900.0
 Equipment: 'Coleman Kobuk' was rented from 2026-04-01 to 2026-04-03 by British High School cost 140.0
-
 
 Equipment: 'Cube' was rented/reserved: 
 1x by Tom
